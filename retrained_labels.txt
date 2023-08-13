@@ -1,0 +1,5 @@
+mild
+moderate
+normal
+proliferative
+severe
