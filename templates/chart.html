@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>DR</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+   <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/style.css" rel="stylesheet">
+  <!-- =======================================================
+  * Template Name: Restaurantly - v3.0.1
+  * Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+ 
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="col-lg-8"><a href="index.html"> <span>Diabetic Retinopathy Diagnosis</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto" href="{{ url_for('first')}}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ url_for('login')}}">Login</a></li>
+		    <li><a class="nav-link scrollto" href="{{ url_for('index')}}">upload</a></li>
+           
+			    <li class="dropdown"><a href="#"><span>Analysis</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="{{ url_for('chart')}}">Chart</a></li>
+                
+                </ul>
+              </li>
+		 
+           
+           </ul>
+          
+       
+     </nav>
+     
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+      <center> <h1><span>AI Driven Diabetic Retinopathy Diagnosis using ANN & RCNN Classification</span></h1>
+
+          
+        </div>
+        
+
+      </div>
+    </div>
+  </section> 
+
+ 
+
+    
+
+ 
+    <section id="book-a-table" class="book-a-table">
+      <div class="container" data-aos="fade-up">
+
+        
+           
+    
+ <div class="section-title">
+           
+         <center> <p></p></center>
+        </div>
+		  
+		   
+ <center><h1>Total Diabetic Retinopathy Classes</h1></center> 
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+    google.charts.load("current", {packages:['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ["states", "percentage", { role: "style" } ],
+        ["Normal", 35, "#b87333"],
+        ["Mild", 42, "#76A7FA"],
+        ["Severe", 51, "gold"],
+        ["Profilarative", 51, "color: #703593"],
+	  ["Moderate", 48, "color: #703523"]
+
+      ]);
+
+      var view = new google.visualization.DataView(data);
+      view.setColumns([0, 1,
+                       { calc: "stringify",
+                         sourceColumn: 1,
+                         type: "string",
+                         role: "annotation" },
+                       2]);
+
+      var options = {
+        title: "",
+        width: 600,
+        height: 400,
+        bar: {groupWidth: "95%"},
+        legend: { position: "none" },
+      };
+       var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+      chart.draw(view, options); 
+  }
+  </script>
+ <center><div id="columnchart_values" style="width: 900px; height: 300px;"></div> </center>
+ </br>
+ </br>
+ </br>
+  </br>
+ </br>
+ </br>
+  
+ <html>
+  <head>
+   
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'percentage'],
+          ['Normal',     35],
+          ['Mild',      42],
+          ['Moderate',  48],
+          ['Severe', 51],
+          ['Profilerative',    51]
+        ]);
+
+        var options = {
+          title: '',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+  </br>
+   <center><h1>Total Retinopathy Classes</h1></center> 
+   <center> <div id="piechart_3d" style="width: 900px; height: 500px;"></div></center>
+  </body>
+</html>
+</br>
+</br>
+</br>
+
+<html>
+   <head>
+      <title></title>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart','line']});  
+      </script>
+   </head>
+   
+   <body>
+   <center><h1>Accuracy Plot of F-RCNN</h1></center> 
+   </br>
+   </br>
+   
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Month');
+            data.addColumn('number', 'Delhi');
+            data.addColumn('number', 'Kerala');
+            data.addColumn('number', 'Tamil nadu');
+			data.addColumn('number', 'Puducherry');
+             
+            data.addRows([
+                
+               ['2014',  5.2, 6.0, 3.5,1.0],
+               ['2015',  10.5, 9.0, 5.0,9.0],
+               
+               ['2016',  15.2, 14.8, 10.6,8.0],
+               ['2017',  20.5,20.1, 15.9,2.9],
+               ['2018',  25.3, 24.1, 10.3,5.0],
+                
+            ]);
+               
+            // Set chart options
+            var options = {'title' : '',
+               hAxis: {
+                  title: 'Year'
+               },
+               vAxis: {
+                  title: 'Total crime rating '
+               },   
+               'width':550,
+               'height':400	  
+            };
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.LineChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>
+			 
+ 
+
+<html>
+   <head>
+      <title></title>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart','line']});  
+      </script>
+   </head>
+
+   
+   <body>
+   <center><h1>Accuracy Plot</h1></center> 
+   </br>
+   </br>
+   
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Month');
+            data.addColumn('number', 'Training_Accuracy');
+            data.addColumn('number', 'Testing_Accuracy');
+                         
+            data.addRows([
+                
+               ['10',  0.75,0.74],
+               ['20',  0.82,0.81],
+               
+               ['30',  0.85,0.86],
+               ['40',  0.92,0.93],
+               ['50',  0.98,0.99],
+                
+            ]);
+               
+            // Set chart options
+            var options = {'title' : '',
+               hAxis: {
+                  title: 'Epoches'
+               },
+               vAxis: {
+                  title: 'Accuracy'
+               },   
+               'width':550,
+               'height':400	  
+            };
+
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.LineChart(document.getElementById('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>
+			 
+			
+			
+			
+			
+			
+			
+			</div>
+          </div>
+        </div>		  
+		  
+		  
+		  
+				  
+		
+		
+		
+		
+      <!-- Portfolio Grid Items -->
+         </div> 
+    </section> 
+   
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+     
+
+    <div class="container">
+      <div class="copyright">
+        
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+         
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../static/vendor/aos/aos.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../static/vendor/php-email-form/validate.js"></script>
+  <script src="../static/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../static/js/main.js"></script>
+
+</body>
+
+</html>
