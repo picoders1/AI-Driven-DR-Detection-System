@@ -1,4 +1,5 @@
 # AI-Driven-DR-Detection-System
+
 AI-driven Detection &amp; Classification of Diabetic Retinopathy" is a cutting-edge approach that combines artificial intelligence (AI) with medical image analysis to identify and categorize a specific eye disease called Diabetic Retinopathy (DR).
 
 Diabetic retinopathy is a serious and advancing ocular disease that impacts people who have diabetes, especially individuals with poorly managed glucose levels over an extended period. It ranks among the primary reason for blindness among adults & elderly individuals worldwide. This condition is a serious and widespread complication of diabetes that affects the retina, leading to vision impairment or even blindness if left untreated.
@@ -12,15 +13,15 @@ This accessibility is particularly beneficial for regions with limited access to
 
 The dataset comprises a total of 35,126 images, which presents a notable class imbalance, notably with class 0 (No DR) representing a significant majority at 73.47%. To overcome this imbalance and ensure effective model training, data augmentation techniques are implemented, which involve augmenting the existing data to balance the distribution across all classes. For a comprehensive breakdown investigating the count of images in each class, refer below. The pivotal role of data augmentation becomes apparent in enhancing the model's ability to learn from diverse samples and ultimately improve the precision and robustness of the diabetic retinopathy detection system.
 
-# Dataset: Class	Count
-No DR	- 25810
-Mild NPDR - 2443
-Moderate NPDR -	5292
-Severe NPDR	- 873
+# Dataset: Class	Count in DR
+No DR	- 25810 ||
+Mild NPDR - 2443 ||
+Moderate NPDR -	5292 ||
+Severe NPDR	- 873 ||
 Proliferative	- 708
 
 
-# Result
+# Implementation Result
 
 #Figure 1: Login into DR System through User Credentials
 
@@ -28,7 +29,7 @@ Proliferative	- 708
 
 #Figure 2: Home screen of the Diabetic Retinopathy Diagnosis system
 
-![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/aa1998f3-d187-4f54-be97-c08447c0896b)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/dfba375d-0b67-4b70-8242-71cc9225a7e7)
 
 #Figure 3: Upload Input as Fundus Image
 
