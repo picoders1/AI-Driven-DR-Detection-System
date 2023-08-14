@@ -25,7 +25,7 @@ Proliferative	- 708
 
 #Figure 1: Login into DR System through User Credentials
 
-![Screenshot (324)](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/ba22dc1e-9856-488e-ae7b-ad975e60ef62)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/ab5c23d2-ce11-4193-9664-6c9741009619)
 
 #Figure 2: Home screen of the Diabetic Retinopathy Diagnosis system
 
@@ -40,9 +40,9 @@ Proliferative	- 708
 ![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/f907d610-b7bd-4254-805c-858fd8bbb15f)
 
 
-# The system has the potential to revolutionize the healthcare industry by improving patient outcomes, increasing access to care, and reducing costs.
+#The system has the potential to revolutionize the healthcare industry by improving patient outcomes, increasing access to care, and reducing costs.
 
-# The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
+#The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
 
 <center> Thank You!! </center>
 
