@@ -25,7 +25,7 @@ Proliferative	- 708
 
 # Figure 1: Login into DR System through User Credentials
 
-![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/40df0850-24d6-4f1d-b67e-88617538871c)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/c711cb91-f100-49b7-bb0f-c0d23d487e29)
 
 # Figure 2: Home screen of the Diabetic Retinopathy Diagnosis system
 
