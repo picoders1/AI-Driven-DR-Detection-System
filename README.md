@@ -23,26 +23,26 @@ Proliferative	- 708
 
 # Implementation Result
 
-#Figure 1: Login into DR System through User Credentials
+# Figure 1: Login into DR System through User Credentials
 
-![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/ab5c23d2-ce11-4193-9664-6c9741009619)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/7a8d46f4-b2ea-4f84-ac1a-9d21c7407e73)
 
-#Figure 2: Home screen of the Diabetic Retinopathy Diagnosis system
+# Figure 2: Home screen of the Diabetic Retinopathy Diagnosis system
 
 ![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/dfba375d-0b67-4b70-8242-71cc9225a7e7)
 
-#Figure 3: Upload Input as Fundus Image
+# Figure 3: Upload Input as Fundus Image
 
 ![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/fcb1fd82-5275-46bc-945b-2d3cae2a8b2c)
 
-#Figure 4: Assessing the patient's condition through the Automated Neural Network Model
+# Figure 4: Assessing the patient's condition through the Automated Neural Network Model
 
 ![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/f907d610-b7bd-4254-805c-858fd8bbb15f)
 
 
-#The system has the potential to revolutionize the healthcare industry by improving patient outcomes, increasing access to care, and reducing costs.
+# The system has the potential to revolutionize the healthcare industry by improving patient outcomes, increasing access to care, and reducing costs.
 
-#The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
+# The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
 
 <center> Thank You!! </center>
 
