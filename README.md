@@ -25,19 +25,19 @@ Proliferative	- 708
 
 # Figure 1: Login into DR System through User Credentials
 
-![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/e8737704-8d6b-45ad-97aa-46909f4833bc)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/493d2b68-d85b-434f-823d-6359a67a3c1e)
 
 # Figure 2: Home screen of the Diabetic Retinopathy Diagnosis system
 
-![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/dfba375d-0b67-4b70-8242-71cc9225a7e7)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/7d2b4238-80c8-4181-969d-8a3a7ee625fd)
 
 # Figure 3: Upload Input as Fundus Image
 
-![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/fcb1fd82-5275-46bc-945b-2d3cae2a8b2c)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/ddb2eb00-dff2-477a-85c5-24b63949b74b)
 
 # Figure 4: Assessing the patient's condition through the Automated Neural Network Model
 
-![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/f907d610-b7bd-4254-805c-858fd8bbb15f)
+![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/fe3ee4d7-2a06-4272-b717-c83f57f2e61a)
 
 
 # The system has the potential to revolutionize the healthcare industry by improving patient outcomes, increasing access to care, and reducing costs.
