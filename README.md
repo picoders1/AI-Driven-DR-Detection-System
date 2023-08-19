@@ -45,4 +45,15 @@ The system has the potential to revolutionize the healthcare industry by improvi
 The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
 
 
+# ----- Future Enhancement -----
+
+# 1. Telemedicine and Remote Screening: 
+
+Telemedicine platforms and remote screening solutions will become more prevalent, allowing individuals with diabetes in remote or underserved areas to access diabetic retinopathy detection services without the need for in-person visits to specialized eye clinics.
+
+# 2. Mobile Applications and Self-monitoring: 
+
+Mobile applications and self-monitoring tools may empower individuals with diabetes to regularly assess their eye health at home. With the integration of smartphone cameras and AI-based algorithms, these applications could enable self-screening for diabetic retinopathy and prompt users to seek a professional evaluation if necessary.
+
+
 # Thank You!!!
