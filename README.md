@@ -40,9 +40,9 @@ Proliferative	- 708
 ![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/fe3ee4d7-2a06-4272-b717-c83f57f2e61a)
 
 
-# The system has the potential to revolutionize the healthcare industry by improving patient outcomes, increasing access to care, and reducing costs.
+The system has the potential to revolutionize the healthcare industry by improving patient outcomes, increasing access to care, and reducing costs.
 
-# The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
+The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
 
 
 # Thank You!!!
