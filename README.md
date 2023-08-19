@@ -44,46 +44,5 @@ Proliferative	- 708
 
 # The system is concerned about accuracy and patient privacy and represents an important and promising area of innovation in healthcare.
 
-<center> Thank You!! </center>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+# Thank You!!!
