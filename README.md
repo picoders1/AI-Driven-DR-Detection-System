@@ -23,7 +23,7 @@ Proliferative	- 708
 
 ## Implementation Result
 
-## Figure 1: Login into DR System through User Credentials
+## Figure 1: Login into the DR System through User Credentials
 
 ![image](https://github.com/picoders1/AI-Driven-DR-Detection-System/assets/87698874/493d2b68-d85b-434f-823d-6359a67a3c1e)
 
