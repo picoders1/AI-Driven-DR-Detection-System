@@ -1,6 +1,6 @@
 # AI-Driven-DR-Detection-System
 
-AI-driven Detection &amp; Classification of Diabetic Retinopathy" is a cutting-edge approach that combines artificial intelligence (AI) with medical image analysis to identify and categorize a specific eye disease called Diabetic Retinopathy (DR).
+AI-driven Detection &amp; Classification of Diabetic Retinopathy is a cutting-edge approach that combines artificial intelligence (AI) with medical image analysis to identify and categorize a specific eye disease called Diabetic Retinopathy (DR).
 
 Diabetic retinopathy is a serious and advancing ocular disease that impacts people who have diabetes, especially individuals with poorly managed glucose levels over an extended period. It ranks among the primary reason for blindness among adults & elderly individuals worldwide. This condition is a serious and widespread complication of diabetes that affects the retina, leading to vision impairment or even blindness if left untreated.
 
