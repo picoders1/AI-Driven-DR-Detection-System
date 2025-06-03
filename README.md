@@ -14,7 +14,7 @@ This accessibility is particularly beneficial for regions with limited access to
 The dataset comprises a total of 35,126 images, which presents a notable class imbalance, notably with class 0 (No DR) representing a significant majority at 73.47%. To overcome this imbalance and ensure effective model training, data augmentation techniques are implemented, which involve augmenting the existing data to balance the distribution across all classes. For a comprehensive breakdown investigating the count of images in each class, refer below. The pivotal role of data augmentation becomes apparent in enhancing the model's ability to learn from diverse samples and ultimately improve the precision and robustness of the diabetic retinopathy detection system.
 
 ## Dataset: Class	Count in DR
-No DR	- 25810 |
+No DR	- 25810 ||
 Mild NPDR - 2443 ||
 Moderate NPDR -	5292 ||
 Severe NPDR	- 873 ||
